@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 12rem; /* ดันโลโก้ไปทางขวา */
+    margin-right: 20rem; /* ดันโลโก้ไปทางซ้าย */
+}
+
+.navbar-logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo-img {
+    width: 10rem;
+    padding: -3rem;
+    margin-bottom: -3rem;
+    margin-top: -3rem;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin-right: auto; /* ดันเมนูไปทางซ้าย */
+    align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+}
+
+.navbar-links li {
+    display: flex;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.icon {
+    margin-right: 5px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
